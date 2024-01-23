@@ -6,7 +6,7 @@ import hiristLogo from "../assets/hiristLogo.png";
 
 const NavBar = () => {
   return (
-    <header className="shadow-sm">
+    <header className="sticky top-0 z-50 bg-white shadow-sm">
       <nav className="m-auto flex  max-w-5xl items-center justify-between px-3 py-5">
         <Link href="/" className="flex items-center gap-3">
           <Image alt="Hirist" src={hiristLogo} width={30} height={30} />

@@ -22,7 +22,7 @@ type Paginationprops = {
 const JobResults = async ({ filterValues, page = 1 }: JobResultsProps) => {
   const { q, type, location, remote } = filterValues;
 
-  const jobsPerPage = 4;
+  const jobsPerPage = 8;
   const skip = (page - 1) * jobsPerPage;
 
   const searchString = q
